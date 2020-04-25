@@ -1,0 +1,6 @@
+@import url('./__container/photo-grid__container.css');
+@import url('./__item/photo-grid__item.css');
+.photo_grid {
+  width: 100%;
+}
+  

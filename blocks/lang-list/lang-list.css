@@ -1,0 +1,10 @@
+@import url('../lang-list/__el/lang-list__el.css');
+@import url('../lang-list/__link/lang-list__link.css');
+@import url('../lang-list/__link/_underline/lang-list__link_underline.css');
+
+.lang-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 5px;
+}

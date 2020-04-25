@@ -1,0 +1,22 @@
+.footer_links-el {
+  padding: 0 18px 0 0;
+}
+
+.footer_links-el:last-child {
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .footer_links-el {
+    padding: 0 5px 0 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer_links-el {
+    padding: 0 0 32px 0;
+  }
+  .footer_links-el:last-child {
+    padding: 0 0 44px 0;
+  }
+}

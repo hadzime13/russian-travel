@@ -1,0 +1,8 @@
+.content {}
+
+@media (min-width: 1440px) {
+  .content {
+    max-width: 1440px;
+    margin: auto;
+  }
+}

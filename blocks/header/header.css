@@ -1,0 +1,30 @@
+@import url('./__logo/header__logo.css');
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: auto;
+  width: calc(100% - 96px);
+  padding: 28px 0 63px;
+  height: 52px;
+}
+@media (max-width : 1025px) {
+  .header {
+    padding: 28px 0 57px;
+  }
+}
+
+@media (max-width : 769px) {
+  .header {
+    width: calc(100% - 48px);
+    padding: 28px 0 56px;
+  }
+}
+
+@media (max-width : 550px) {
+  .header {
+    width: calc(100% - 32px);
+    padding: 18px 0 51px;
+    height: 42px;
+  }
+}
