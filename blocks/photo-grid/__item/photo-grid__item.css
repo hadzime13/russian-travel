@@ -1,18 +1,4 @@
-@import url('./_place/photo-grid__item_place_arisa-chattasa.css');
-@import url('./_place/photo-grid__item_place_atharva-tulsi.css');
-@import url('./_place/photo-grid__item_place_baikal.css');
-@import url('./_place/photo-grid__item_place_baikal2.css');
-@import url('./_place/photo-grid__item_place_elbrus.css');
-@import url('./_place/photo-grid__item_place_ergaki.css');
-@import url('./_place/photo-grid__item_place_kamchatka.css');
-@import url('./_place/photo-grid__item_place_kamchatka2.css');
-@import url('./_place/photo-grid__item_place_kondratiev.css');
-@import url('./_place/photo-grid__item_place_sochi.css');
-@import url('./_place/photo-grid__item_place_train.css');
-@import url('./_place/photo-grid__item_place_tuman.css');
 .photo-grid__item {
-  padding-bottom: 75%;
-  margin: 0;
-  background-size: cover;
-  background-position: top;
+
 }
+

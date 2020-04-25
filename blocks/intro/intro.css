@@ -14,13 +14,14 @@
 }
 @media (max-width: 1025px) {
   .intro {
-    padding: 92px 0 90px;
+    padding: 92px 0 94px;
     width: calc(100% - 96px);
   }
 }
 
 @media (max-width: 769px) {
   .intro {
+    padding: 92px 0 90px;
     width: calc(100% - 48px);
   }
 }

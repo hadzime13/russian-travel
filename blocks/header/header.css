@@ -6,7 +6,7 @@
   margin: auto;
   width: calc(100% - 96px);
   padding: 28px 0 63px;
-  height: 52px;
+  max-height: 52px;
 }
 @media (max-width : 1025px) {
   .header {
@@ -24,7 +24,7 @@
 @media (max-width : 550px) {
   .header {
     width: calc(100% - 32px);
-    padding: 18px 0 51px;
-    height: 42px;
+    padding: 16px 0 51px;
+    max-height: 52px;
   }
 }

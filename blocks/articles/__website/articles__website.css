@@ -1,0 +1,10 @@
+.articles__website {
+  align-self: end;
+  justify-self: start;
+}
+
+@media (max-width: 550px) {
+  .articles__website {
+    display: none;
+  }
+}
