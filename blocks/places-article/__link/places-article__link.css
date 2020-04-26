@@ -1,0 +1,15 @@
+.places-article__link {
+  margin: 0;
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  text-decoration-line: underline;
+  text-underline-position: under;
+}
+
+.places-article__link:hover {
+  text-decoration-line: underline;
+  text-underline-position: under;
+}

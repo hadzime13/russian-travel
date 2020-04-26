@@ -1,0 +1,23 @@
+.places-article__image {
+  width: 35.94vw;
+  height: auto;
+}
+
+@media (max-width: 1025px) {
+  .places-article__image {
+    width: 42.97vw;
+  }
+}
+
+@media (max-width: 769px) {
+  .places-article__image {
+    width: 44.27vw;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .places-article__image {
+    width: 100%;
+  }
+}

@@ -12,7 +12,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
   .footer_links-el {
     padding: 0 0 32px 0;
   }

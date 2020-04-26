@@ -1,12 +1,12 @@
-@import url('./__description/articles__description.css');
-@import url('./__image/articles__image.css');
-@import url('./__paragraph/articles__paragraph.css');
-@import url('./__title/articles__title.css');
-@import url('./__link/articles__link.css');
-@import url('./__url-heading/articles__url-heading.css');
-@import url('./__website/articles__website.css');
+@import url('./__description/places-article__description.css');
+@import url('./__image/places-article__image.css');
+@import url('./__paragraph/places-article__paragraph.css');
+@import url('./__title/places-article__title.css');
+@import url('./__link/places-article__link.css');
+@import url('./__url-heading/places-article__url-heading.css');
+@import url('./__website/places-article__website.css');
 
-.articles{
+.places-article{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
@@ -17,54 +17,54 @@
   margin: auto;
 }
 
-.articles:last-child {
+.places-article:last-child {
   padding: 0 0 92px;
 }
 
 @media (max-width: 1025px) {
-  .articles{
+  .places-article{
     grid-column-gap: 16px;
     width: calc(100% - 96px);
   }
 }
 
 @media (max-width: 769px) {
-  .articles{
+  .places-article{
     width: calc(100% - 48px);
     padding: 0 0 80px;
   }
-  .articles:nth-child(3) {
+  .places-article:nth-child(3) {
     padding: 0 0 76px;
   }
-  .articles:nth-child(4) {
+  .places-article:nth-child(4) {
     padding: 0 0 74px;
   }
-  .articles:last-child {
+  .places-article:last-child {
     padding: 0 0 95px;
   }
 }
 
 @media (max-width: 550px) {
-  .articles{
+  .places-article{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     grid-row-gap: 32px;
     width: calc(100% - 24px);
     padding: 0 0 57px;
   }
-  .articles:nth-child(3) {
+  .places-article:nth-child(3) {
     padding: 0 0 52px;
   }
-  .articles:nth-child(4) {
+  .places-article:nth-child(4) {
     padding: 0 0 54px;
   }
-  .articles:last-child {
+  .places-article:last-child {
     padding: 0 0 70px;
   }
 }
 
 @media (max-width: 350px) {
-  .articles{
+  .places-article{
     width: 100%;
   }
 }

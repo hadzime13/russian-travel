@@ -1,4 +1,4 @@
-.articles__title {
+.places-article__title {
   align-self: end;
   margin: 0 0 -8px;
   padding: 5px 0 0 0;
@@ -10,14 +10,14 @@
 }
 
 @media (max-width: 769px) {
-  .articles__title {
+  .places-article__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
 
 @media (max-width: 550px) {
-  .articles__title {
+  .places-article__title {
     padding: 0 16px 0;
     margin: 0;
     font-size: 32px;
