@@ -1,4 +1,7 @@
 .lang-list__link_underline {
-  text-decoration-line: underline;
-  text-underline-position: under;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+.lang-list__link_underline:hover {
+  text-decoration: none;
 }
