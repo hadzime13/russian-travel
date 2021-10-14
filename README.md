@@ -1,7 +1,7 @@
 # Проект MESTO
 
 Адрес сайта
-www.hadzime13.github.io/russian-travel/
+https://hadzime13.github.io/russian-travel/
 
 
 ## :steam_locomotive: Учебный проект о путешествии по России
